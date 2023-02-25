@@ -1,6 +1,11 @@
 #include<stdc++.h>
 using namespace std;
 
+/*
+T.C = O(n)
+S.C = O(n)
+*/
+
 void reverse_reccur(int arr[],int s,int e){
     if(s>e) return ;
 

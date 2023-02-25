@@ -1,6 +1,11 @@
 #include<stdc++.h>
 using namespace std;
 
+/*
+T.C = O(n)
+S.C = O(1)
+*/
+
 //METHOD 1
 void reverse(int arr[],int n){    
     for(int i=0; i<n/2; i++){
