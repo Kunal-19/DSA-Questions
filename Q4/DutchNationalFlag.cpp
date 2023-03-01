@@ -2,7 +2,7 @@
 using namespace std;
 
 /*
-T.C : O(2*n)
+T.C : O(n)
 S.c : O(1)
 */
 
