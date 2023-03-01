@@ -1,6 +1,12 @@
 #include <stdc++.h>
 using namespace std;
 
+/*
+T.C : O(klogk + (n-k)log(n-k))
+S.C : O(k)
+*/
+
+
 int findKthLargest(int nums[], int k, int n)
 {
     priority_queue<int, vector<int>, greater<int> > q;
