@@ -1,9 +1,15 @@
 #include<stdc++.h>
+#include<unordered_set>
 using namespace std;
+
+/*
+T.C: O(N)
+S.c: O(m+n)
+*/
 
 
 int main(){
-    set<int> mp;
+    unordered_set<int> mp;
     int m = 5, n = 3;
     int arr1[5] = {1, 2, 3, 4, 5}, arr2[3] = {1,2,3};
 
@@ -14,8 +20,6 @@ int main(){
         mp.insert(arr2[i]);
     }
 
-    for(auto i:mp){
-        cout << i << " ";
-    }
+    cout << mp.size();
     return 0;
 }

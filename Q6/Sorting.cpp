@@ -1,9 +1,12 @@
 #include<stdc++.h>
 using namespace std;
 
+/*
+T.C : O(n)
+S.C : O(m+n)
+*/
 
 int main(){
-    set<int> mp;
     int m = 5, n = 3;
     int arr1[5] = {1, 2, 3, 4, 5}, arr2[3] = {1,2,3};
 
